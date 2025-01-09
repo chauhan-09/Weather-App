@@ -3,16 +3,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
     font-family: sans-serif;
+    background-color: gray;
+    font-weight: 400;
 }
 
-.content{
-
+.container
+{
+    display: block;
     text-align: center;
-    border: 2px solid brown;
-    padding: 25px;
-    background-color: white;
+    padding: 4rem;
+    background-color: aqua;
+    flex: 0 0 70%; /* always occupy 70 of the screen */
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border:2px solid brown;
+}
+
+.btn{
+    color: white;
+    background-color: green;
+    border-radius: 3px solid brown;
 }
