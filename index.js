@@ -1,7 +1,7 @@
 const weather_city = document.querySelector('.city')
 const btn = document.querySelector('.btn');
 const weather = document.querySelector('.weather');
-const apikey = "80300c3c403593e35aec39047d4392ae";
+const apikey = "";
 
 btn.addEventListener('click', () => {  
     const city = weather_city.value;
